@@ -22,3 +22,14 @@ console.log(evens);
 let odds = arr.filter(arr => arr % 2 !=0)
 
 console.log(odds);
+
+var sum = 0;
+
+for (var n of arr)
+{
+  sum += n;
+  avg = sum/arr.length;
+}
+console.log(sum);
+
+console.log(avg);
